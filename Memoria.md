@@ -33,5 +33,3 @@ Una vez hecha esta lectura realicé una segunda lectura un poco más detallada s
 Por último se hizo una tercera lectura mucho más profunda y pausada en la que analicé poco a poco los requisitos de la aplicación subrayando de otro color las palabras claves del enunciado, esto me ayudará más adelante cuando quiera buscar las propiedades de algún requisito poder ubicarlo fácilmente y de manera visual.
 
 ## Diseño
-
-
