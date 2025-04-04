@@ -34,3 +34,15 @@ Por último se hizo una tercera lectura mucho más profunda y pausada en la que 
 
 ## Diseño
 
+```mermaid
+classDiagram
+    class Persona {
+        + String nombre
+        - metodoEjemplo()
+    }
+    class Usuario {
+        +String raza
+        - ladrar()
+    }
+    Persona <|-- Usuario
+
