@@ -1,0 +1,63 @@
+@startuml sistema
+abstract class Persona {
+    - nombre: String
+    - edad: int
+    + getNombre(): String
+}
+abstract class Usuario {
+
+}
+abstract class Empleado {
+    - identificacion: int
+}
+class Mecanico {
+
+}
+class Mantenimiento {
+
+}
+class Administrador {
+
+}
+class Standar {
+
+}
+class Premium {
+
+}
+
+class Base{
+
+}
+
+
+
+
+abstract class Vehiculo {
+    - identificador: int
+}
+
+class Patin{}
+abstract class Moto{}
+class Bici{}
+class MotoGrande{}
+class MotoPeque{}
+
+
+Vehiculo <|-- Patin
+Vehiculo <|-- Moto
+Vehiculo <|-- Bici
+Moto <|-- MotoGrande
+Moto <|-- MotoPeque
+
+Persona <|-- Usuario
+Persona <|-- Empleado
+Empleado <|-- Mecanico
+Empleado <|-- Mantenimiento
+Empleado <|-- Administrador
+Usuario <|-- Standar
+Usuario <|-- Premium
+
+
+
+@enduml
